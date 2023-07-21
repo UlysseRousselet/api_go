@@ -20,7 +20,7 @@ import (
 	//
 	//    sw "github.com/myname/myrepo/go"
 	//
-	sw "/home/ulysse/code/go-server-server-generated/go"
+	sw "/home/ulysse/code/go-server-server-generated/g"
 )
 
 func main() {
