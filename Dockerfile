@@ -6,6 +6,7 @@ RUN go get -d -v ./...
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -42,3 +43,5 @@ COPY --from=build /go/src/swagger ./
 EXPOSE 8080/tcp
 ENTRYPOINT ["./swagger"]
 >>>>>>> 55d0c3d (test)
+=======
+>>>>>>> 65dbe9c (first push on new branch)
