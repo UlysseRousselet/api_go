@@ -7,7 +7,23 @@ ENV CGO_ENABLED=0
 RUN go get -d -v ./...
 
 RUN go build -a -installsuffix cgo -o swagger .
+ZIHBDIHZBIZBBIZDIZ
+dDZ
+DZZ
+ZIHBDIHZBIZBBIZDIZZD
+ZD
 
+ZD
+ZIHBDIHZBIZBBIZDIZZD
+ZD
+
+ZD
+ZD
+Z
+D
+ZIHBDIHZBIZBBIZDIZDZ
+ZD
+Z
 FROM scratch AS runtime
 COPY --from=build /go/src/swagger ./
 EXPOSE 8080/tcp
